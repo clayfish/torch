@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Torch</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8021313909696046/3121435418</string>
-    <string name="admob-app-id" translatable="false">ca-app-pub-8021313909696046~1644702211</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-8021313909696046~1644702211</string>
 </resources>
