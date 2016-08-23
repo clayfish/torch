@@ -4,6 +4,7 @@
     <string name="admob_app_id" translatable="false">ca-app-pub-8021313909696046~1644702211</string>
     <string-array name="test_devices">
         <item>99364A712F74D718C57EC9004822E876</item>
+        <item>B2C8AD25602C0A035DBF7F01ED52FA10</item>
     </string-array>
     <string name="light_toggle">Light</string>
 </resources>
