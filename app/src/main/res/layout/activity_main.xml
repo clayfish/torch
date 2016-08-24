@@ -13,14 +13,18 @@
         tools:context=".MainActivity">
 
 
-    <Button android:id="@+id/toggleButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+
+    <ImageButton
+            android:id="@+id/toggleButton"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="150dip"
-            android:minHeight="92dp"
-            android:textSize="28dp"
-            android:text="@string/light_toggle" />
+            android:layout_marginTop="100dip"
+            android:src="@drawable/android1"
+            android:background="@null"
+            android:contentDescription="@null"
+    />
 
     <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
