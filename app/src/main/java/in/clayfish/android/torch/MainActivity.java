@@ -16,10 +16,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
-    private ImageButton mImageButton;
     private boolean flashOn;
     private Camera camera = null;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        mImageButton = (ImageButton) findViewById(R.id.toggleButton);
+        ImageButton mImageButton = (ImageButton) findViewById(R.id.toggleButton);
         mImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
