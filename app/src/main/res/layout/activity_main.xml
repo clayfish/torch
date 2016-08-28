@@ -16,7 +16,7 @@
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dip"
-            android:src="@mipmap/android1"
+            android:src="@drawable/android1"
             android:background="@null"
             android:contentDescription="@null"
     />

@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     private boolean flashOn;
     private Camera camera = null;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
