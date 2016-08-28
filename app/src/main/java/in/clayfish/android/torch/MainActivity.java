@@ -1,9 +1,5 @@
 package in.clayfish.android.torch;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Bundle;
@@ -23,17 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        MobileAds.initialize(getApplicationContext(), getResources().getString(R.string.admob_app_id));
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest.Builder adRequestBuilder = new AdRequest.Builder()
-            .addTestDevice(AdRequest.DEVICE_ID_EMULATOR);
-
-        for (String testDevice : getResources().getStringArray(R.array.test_devices)) {
-            adRequestBuilder.addTestDevice(testDevice);
-        }
-
-        mAdView.loadAd(adRequestBuilder.build());
 
         boolean hasFlash = getApplicationContext().getPackageManager()
                 .hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
