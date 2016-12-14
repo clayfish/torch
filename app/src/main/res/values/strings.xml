@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Torch</string>
     <string name="light_toggle">Light</string>
+    <string name="sorry">Sorry, your device doesn\'t support flash light.</string>
+    <string name="turn_on">Turns the torch on.</string>
+    <string name="turn_off">Turns the torch off.</string>
 </resources>

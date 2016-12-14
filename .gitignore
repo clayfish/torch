@@ -42,3 +42,4 @@ captures/
 gradle/wrapper/dists/
 keys/
 app/google-services.json
+local.properties
